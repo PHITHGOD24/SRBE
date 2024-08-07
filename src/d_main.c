@@ -742,7 +742,7 @@ void D_SRB2Loop(void)
 	"===========================================================================\n"
 	"                   We hope you enjoy this game as\n"
 	"                     much as we did making it!\n"
-	"                            ...wait. =P\n"
+	"                            ...wait. =P oh ya btw u in SRBe not SRB2\n"
 	"===========================================================================\n");
 
 	// hack to start on a nice clear console screen.
@@ -1246,8 +1246,9 @@ void D_SRB2Main(void)
 
 	// Print GPL notice for our console users (Linux)
 	CONS_Printf(
-	"\n\nSonic Robo Blast 2\n"
-	"Copyright (C) 1998-2023 by Sonic Team Junior\n\n"
+	"\n\nSonic Robo Blast Engine\n"
+	"Copyright (C) 1998-2024 by Sonic Team Junior\n\n"
+	"Copyleft (D) 2024 by PHITHGOD24\n\n"
 	"This program comes with ABSOLUTELY NO WARRANTY.\n\n"
 	"This is free software, and you are welcome to redistribute it\n"
 	"and/or modify it under the terms of the GNU General Public License\n"
@@ -1445,11 +1446,7 @@ void D_SRB2Main(void)
 #ifndef DEVELOP // md5s last updated 22/02/20 (ddmmyy)
 
 	// Check MD5s of autoloaded files
-	W_VerifyFileMD5(0, ASSET_HASH_SRB2_PK3); // srb2.pk3
-	W_VerifyFileMD5(1, ASSET_HASH_ZONES_PK3); // zones.pk3
-	W_VerifyFileMD5(2, ASSET_HASH_PLAYER_DTA); // player.dta
 #ifdef USE_PATCH_DTA
-	W_VerifyFileMD5(3, ASSET_HASH_PATCH_PK3); // patch.pk3
 #endif
 	// don't check music.dta because people like to modify it, and it doesn't matter if they do
 	// ...except it does if they slip maps in there, and that's what W_VerifyNMUSlumps is for.
