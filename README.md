@@ -16,4 +16,4 @@
 See [SRB2 Wiki/Source code compiling](http://wiki.srb2.org/wiki/Source_code_compiling)
 
 ## Disclaimer
-Sonic Team Junior is in no way affiliated with SEGA or Sonic Team. We do not claim ownership of any of SEGA's intellectual property used in SRB2.
+PHITHGOD24 is in no way affiliated with SEGA, Sonic Team or Sonic Team Jr. We do not claim ownership of any of SEGA's or anyones intellectual property used in SRBE.
