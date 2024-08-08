@@ -1,5 +1,4 @@
-# Sonic Robo Blast 2
-
+# Sonic Robo Blast Engine
 
 [Sonic Robo Blast Engine](https://srb2.org/) is a 3D Sonic the Hedgehog game? based on a modified version of [Sonic Robo Blast 2](http://srb2.org/) Which Sonic Robo Blast 2 is based on a modified version of
  [Doom Legacy](http://doomlegacy.sourceforge.net/).
